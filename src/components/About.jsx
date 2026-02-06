@@ -11,7 +11,7 @@ export default function About() {
         },
         {
             label: "Experiência",
-            value: "+2 anos como Desenvolvedor Web",
+            value: "+2 anos como Desenvolvedor Full-Stack",
             icon: HiBriefcase,
         },
         {

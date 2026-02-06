@@ -15,21 +15,65 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*@theme {*/
+/*  --color-bg: #020617;          !* fundo principal (slate-950) *!*/
+/*  --color-surface: #020617;     !* cards / sections *!*/
+/*  --color-border: #1e293b;      !* bordas sutis *!*/
+
+/*  --color-text: #e5e7eb;        !* texto principal *!*/
+/*  --color-muted: #9ca3af;       !* texto secundário *!*/
+
+/*  --color-primary: #6366f1;     !* indigo-500 *!*/
+/*  --color-primary-hover: #4f46e5;*/
+/*}*/
+
+/*@theme {*/
+/*  !* Fundos *!*/
+/*  --color-bg: #020617;          !* quase preto azulado *!*/
+/*  --color-surface: #020617;     !* mantém clean *!*/
+/*  --color-border: #1e293b;      !* slate-800 *!*/
+
+/*  !* Textos *!*/
+/*  --color-text: #f1f5f9;        !* slate-100 (mais limpo que o atual) *!*/
+/*  --color-muted: #94a3b8;       !* slate-400 *!*/
+
+/*  !* Destaques *!*/
+/*  --color-primary: #0ea5e9;     !* sky-500 (combina MUITO com a imagem) *!*/
+/*  --color-primary-hover: #0284c7;*/
+
+/*  --color-accent: #22f3e0;      !* ciano neon (toque premium) *!*/
+/*}*/
+
 @theme {
-  --color-bg: #020617;          /* fundo principal (slate-950) */
-  --color-surface: #020617;     /* cards / sections */
-  --color-border: #1e293b;      /* bordas sutis */
+  --color-bg: #020617;            /* fundo geral */
+  --color-surface: #020617;       /* cards */
+  --color-border: #1e293b;
 
-  --color-text: #e5e7eb;        /* texto principal */
-  --color-muted: #9ca3af;       /* texto secundário */
+  --color-text: #e5e7eb;
+  --color-muted: #9ca3af;
 
-  --color-primary: #6366f1;     /* indigo-500 */
-  --color-primary-hover: #4f46e5;
+  /* Acentuação principal */
+  --color-primary: #38bdf8;       /* sky-400 */
+  --color-primary-hover: #0ea5e9; /* sky-500 */
+
+  /* Gradiente */
+  --color-gradient-from: #0284c7; /* sky-600 */
+  /*--color-gradient-to: #22d3ee;   !* cyan-400 *!*/
+  /*--color-gradient-to: #0891b2; !* cyan-600 *!*/
+  --color-gradient-to:   #0e7490; /* cyan-700 */
+
+
+  /* Tags / badges */
+  --color-tag-bg: rgba(56, 189, 248, 0.12);
+  --color-tag-border: rgba(56, 189, 248, 0.25);
+  --color-tag-text: #7dd3fc;
 }
+
 
 html,
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: Inter, system-ui, sans-serif;
+  scroll-behavior: smooth;
 }

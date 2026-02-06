@@ -45,7 +45,9 @@ export default function Skills() {
                             transition={{ duration: 0.4 }}
                             className="group flex flex-col items-center justify-center
                                bg-slate-800/70 border border-white/10 rounded-xl
-                               p-6 hover:bg-slate-800 transition"
+                               p-6 hover:bg-slate-800 transition
+                               hover:border-[color:var(--color-primary)]
+                               "
                             >
                                     <skill.icon
                                         className={`text-4xl mb-3 ${skill.color}

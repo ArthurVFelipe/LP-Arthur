@@ -4,30 +4,41 @@ const experiences = [
     {
         role: "Desenvolvedor Full-Stack",
         company: "Trashin",
-        period: "2023 - Presente",
+        period: "07/2023 - Presente",
         location: "Brasil",
         description:
             "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
-        techs: ["React", "Angular", "Tailwind", "Laravel", "JavaScript"],
+        techs: ["React", "React Native", "Laravel", "Livewire", "jQuery", "PostgreSQL", "Power BI"],
     },
     {
-        role: "Desenvolvedor Full-Sctack",
+        role: "Estagiário de Desenvolvimento",
         company: "Trashin",
-        period: "2023 - Presente",
+        period: "01/2023 – 07/2023",
         location: "Brasil",
         description:
             "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
-        techs: ["React", "Angular", "Tailwind", "Laravel", "JavaScript"],
+        techs: ["React", "React Native", "Laravel", "Livewire", "jQuery", "PostgreSQL", "Power BI"],
     },
     {
-        role: "Desenvolvedor Full-Sctack",
-        company: "Trashin",
-        period: "2023 - Presente",
+        role: "Estagiário de Desenvolvimento",
+        company: "Target.IT Serviços em Tecnologia",
+        period: "04/2022 – 12/2022",
         location: "Brasil",
         description:
-            "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
-        techs: ["React", "Angular", "Tailwind", "Laravel", "JavaScript"],
+            "Auxiliar no mapeamento de arquivos em PDF para \n" +
+            "software de mapeamento de imagens e manutenção de Java e no \n" +
+            "mesmo, auxilio nas demais atividades da área. ",
+        techs: ["Java", "SQL Server"],
     },
+    {
+        role: " Estagiário de TI",
+        company: "Blanc Hospital",
+        period: "08/2021 – 04/2022",
+        location: "Brasil",
+        description:
+            "Auxiliar nos serviços de suporte de TI.",
+        techs: [],
+    }
 ];
 
 
