@@ -1,4 +1,10 @@
+import Button from "./ui/Button.jsx";
+
 export default function Contact() {
+    const goToContact = () => {
+        window.location.href =
+            "mailto:arthur_avf.br@hotmail.com?subject=Contato pelo site";
+    }
     return (
         <section id="contact" className="py-24 px-6">
             <div className="max-w-3xl mx-auto text-center">
@@ -8,12 +14,9 @@ export default function Contact() {
                     Estou aberto a oportunidades e projetos.
                 </p>
 
-                <a
-                    href="mailto:arthur_avf.br@hotmail.com"
-                    className="bg-primary px-8 py-4 rounded-md text-white font-medium"
-                >
+                <Button variant="primary" onClick={goToContact}>
                     Entrar em contato
-                </a>
+                </Button>
             </div>
         </section>
     )

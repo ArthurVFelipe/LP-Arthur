@@ -33,7 +33,7 @@ export default function About() {
                         </h2>
                         <p className="text-[color:var(--color-muted)] leading-relaxed">
                             Sou <span className="text-[color:var(--color-text)] font-medium">
-                            Desenvolvedor Web
+                            Desenvolvedor Full-Stack
                           </span>, formado em Análise e Desenvolvimento de Sistemas, com experiência
                                         profissional na criação de aplicações modernas e escaláveis.
                                         Atuo principalmente no frontend, desenvolvendo interfaces limpas e

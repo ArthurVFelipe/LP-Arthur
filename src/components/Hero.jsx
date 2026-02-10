@@ -1,4 +1,4 @@
-import img13 from "../assets/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg";
+import img13 from "../assets/hero/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg";
 import Button from "./ui/Button.jsx";
 
 export default function Hero() {
