@@ -2,6 +2,7 @@ const links = [
     { id: "about", label: "Sobre" },
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projetos" },
+    {id: "experience", label: "Experiências" },
     { id: "contact", label: "Contato" },
 ];
 
@@ -17,7 +18,7 @@ export default function Header() {
                        bg-[color:var(--color-bg)]/80 backdrop-blur
                        border-b border-[color:var(--color-border)]">
             <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-                <span className="font-semibold">Arthur Felipe</span>
+                <span className="font-semibold hover:cursor-pointer" onClick={() => scrollTo('home')}>Arthur Felipe</span>
 
                 <ul className="flex gap-6 text-sm">
                     {links.map((link) => (

@@ -16,7 +16,7 @@ export default function Hero() {
     }
 
     return (
-        <section className="relative min-h-screen flex items-center px-6 bg-cover bg-center" style={{ backgroundImage: `url(${img13})` }}>
+        <section id="home" className="relative min-h-screen flex items-center px-6 bg-cover bg-center" style={{ backgroundImage: `url(${img13})` }}>
             <div className="max-w-5xl mx-auto">
                 <h1 className="text-5xl md:text-7xl font-bold">
                     Arthur Felipe
