@@ -4,21 +4,21 @@ const experiences = [
     {
         role: "Desenvolvedor Full-Stack",
         company: "Trashin",
-        period: "07/2023 - Presente",
+        period: "01/2023 - Presente",
         location: "Brasil",
         description:
             "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
         techs: ["React", "React Native", "Laravel", "Livewire", "jQuery", "PostgreSQL", "Power BI"],
     },
-    {
-        role: "Estagiário de Desenvolvimento",
-        company: "Trashin",
-        period: "01/2023 – 07/2023",
-        location: "Brasil",
-        description:
-            "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
-        techs: ["React", "React Native", "Laravel", "Livewire", "jQuery", "PostgreSQL", "Power BI"],
-    },
+    // {
+    //     role: "Estagiário de Desenvolvimento",
+    //     company: "Trashin",
+    //     period: "01/2023 – 07/2023",
+    //     location: "Brasil",
+    //     description:
+    //         "Atuação no desenvolvimento de aplicações front-end e back-end, com foco em frontend utilizando React e Livewire, além de integração com backend em PHP e Laravel.",
+    //     techs: ["React", "React Native", "Laravel", "Livewire", "jQuery", "PostgreSQL", "Power BI"],
+    // },
     {
         role: "Estagiário de Desenvolvimento",
         company: "Target.IT Serviços em Tecnologia",
