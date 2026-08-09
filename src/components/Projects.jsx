@@ -86,7 +86,7 @@ export default function Projects() {
                                 href={project.html_url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-block mt-4 text-primary hover:underline"
+                                className="relative z-50 inline-block mt-4 text-primary hover:underline cursor-pointer"
                             >
                                 Ver projeto →
                             </a>
